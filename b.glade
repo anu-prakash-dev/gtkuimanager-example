@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkActionGroup" id="actions">
+    <child>
+      <object class="GtkAction" id="b-action">
+        <property name="label" translatable="yes">_B option</property>
+        <property name="short_label" translatable="yes">B</property>
+        <property name="tooltip" translatable="yes">This is the only option of B</property>
+        <property name="icon_name">preferences-desktop-accessibility</property>
+        <property name="always_show_image">True</property>
+        <signal name="activate" handler="gui_cb_b_action" swapped="no"/>
+      </object>
+      <accelerator key="b" modifiers="GDK_SHIFT_MASK"/>
+    </child>
+    <child>
+      <object class="GtkAction" id="b-menu">
+        <property name="label" translatable="yes">B _module</property>
+      </object>
+    </child>
+  </object>
+</interface>

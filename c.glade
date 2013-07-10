@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkActionGroup" id="actions">
+    <child>
+      <object class="GtkAction" id="c-action">
+        <property name="label" translatable="yes">_C option</property>
+        <property name="short_label" translatable="yes">C</property>
+        <property name="tooltip" translatable="yes">This is the only option of C</property>
+        <property name="icon_name">start-here</property>
+        <property name="always_show_image">True</property>
+        <signal name="activate" handler="gui_cb_c_action" swapped="no"/>
+      </object>
+      <accelerator key="c" modifiers="GDK_SHIFT_MASK"/>
+    </child>
+    <child>
+      <object class="GtkAction" id="c-menu">
+        <property name="label" translatable="yes">C _module</property>
+      </object>
+    </child>
+  </object>
+</interface>

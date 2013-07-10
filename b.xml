@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui>
+	<menubar name="menubar">
+		<placeholder name="module-menu">
+			<menu name="b-menu" action="b-menu">
+				<menuitem name="b" action="b-action"/>
+			</menu>
+		</placeholder>
+	</menubar>
+
+	<toolbar name="toolbar">
+		<placeholder name="module-tool">
+			<toolitem name="b" action="b-action"/>
+		</placeholder>
+	</toolbar>
+</ui>
+

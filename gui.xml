@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui>
+	<menubar name="menubar">
+		<menu name="main-menu" action="main-action" position="top">
+			<menuitem name="activate" action="activate-action"/>
+			<separator/>
+			<menuitem name="exit" action="quit-action"/>
+		</menu>
+		<placeholder name="module-menu"/>
+		<menu name="help-menu" action="help-action" position="bot">
+			<menuitem name="about" action="about-action"/>
+		</menu>
+	</menubar>
+	<toolbar name="toolbar">
+		<toolitem name="activate-tool" action="activate-action" position="top"/>
+		<separator/>
+		<placeholder name="module-tool"/>
+		<separator/>
+		<toolitem name="quit-tool" action="quit-action" position="bot"/>
+	</toolbar>
+</ui>
+
